@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4687a09e-4836-4dff-a6a8-5760de5d6f29" name="Default Changelist" comment="" />
+    <list default="true" id="4687a09e-4836-4dff-a6a8-5760de5d6f29" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,9 +28,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Qv98dG7karHbOV12gy644sWa1G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -58,8 +65,14 @@
   </component>
   <component name="RunManager" selected="TestNG.EmployeeServiceAPITests">
     <configuration name="EmployeeServiceAPITests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTests" />
-      <option name="PACKAGE_NAME" value="" />
+      <module name="api.tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee.services" />
       <option name="MAIN_CLASS_NAME" value="employee.services.EmployeeServiceAPITests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -68,9 +81,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeServiceAPITests.CreateEmployee (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api.tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee.services" />
+      <option name="MAIN_CLASS_NAME" value="employee.services.EmployeeServiceAPITests" />
+      <option name="METHOD_NAME" value="CreateEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeServiceAPITests.CreateEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTests" />
-      <option name="PACKAGE_NAME" value="" />
+      <module name="api.tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee.services" />
       <option name="MAIN_CLASS_NAME" value="employee.services.EmployeeServiceAPITests" />
       <option name="METHOD_NAME" value="CreateEmployee" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -80,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceAPITests.GetAllEmployeess" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTests" />
+    <configuration name="EmployeeServiceAPITests.GetEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api.tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="employee.services.*" />
@@ -89,18 +127,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="employee.services" />
-      <option name="MAIN_CLASS_NAME" value="employee.services.EmployeeServiceAPITests" />
-      <option name="METHOD_NAME" value="GetAllEmployeess" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeServiceAPITests.GetEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTests" />
-      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="employee.services.EmployeeServiceAPITests" />
       <option name="METHOD_NAME" value="GetEmployee" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -110,15 +136,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="employee.services" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="employee.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="employee.services" />
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api.tests" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -129,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.EmployeeServiceAPITests" />
-        <item itemvalue="TestNG.EmployeeServiceAPITests.GetAllEmployeess" />
-        <item itemvalue="TestNG.employee.services" />
         <item itemvalue="TestNG.EmployeeServiceAPITests.CreateEmployee" />
         <item itemvalue="TestNG.EmployeeServiceAPITests.GetEmployee" />
+        <item itemvalue="TestNG.EmployeeServiceAPITests.CreateEmployee (1)" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -148,5 +168,18 @@
       <updated>1568640044433</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
