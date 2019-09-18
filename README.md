@@ -18,6 +18,5 @@
 	  * Build the solution
     * Run API tests
     ```
-### Resources
-##### https://learning.oreilly.com/videos/rest-api-automation/9781789133813
+
 
