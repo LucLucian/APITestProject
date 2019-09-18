@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import utils.PropertyLoader;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
 public class EmployeeServiceAPITests extends BaseRequestClass {
@@ -36,8 +37,12 @@ public class EmployeeServiceAPITests extends BaseRequestClass {
         ResponseBody body = response.getBody();
         System.out.println("Response Body is: " + body.asString());
 
+        //Asserts the json schema
+        response.then().assertThat().body(matchesJsonSchemaInClasspath("json.schema"));
+
         //Asserts the POST request body on salary field and status code
         RequestsGeneralAssert(response, "salary", "123", 200);
+
 
         myId = response.jsonPath().get("id");
     }

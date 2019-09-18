@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4687a09e-4836-4dff-a6a8-5760de5d6f29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/employee/services/EmployeeServiceAPITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/employee/services/EmployeeServiceAPITests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/employee/services/EmployeeServiceAPITests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/employee/services/EmployeeServiceAPITests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="json file" />
       </list>
     </option>
   </component>
@@ -35,7 +39,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -136,9 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="employee.services" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api.tests" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee.services" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -150,9 +160,9 @@
       <list>
         <item itemvalue="TestNG.EmployeeServiceAPITests" />
         <item itemvalue="TestNG.EmployeeServiceAPITests.CreateEmployee" />
+        <item itemvalue="TestNG.employee.services" />
         <item itemvalue="TestNG.EmployeeServiceAPITests.GetEmployee" />
         <item itemvalue="TestNG.EmployeeServiceAPITests.CreateEmployee (1)" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
